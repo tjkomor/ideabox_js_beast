@@ -1,9 +1,9 @@
 <div class="idea-creater">
   <h3>Worlds Best Ideas List</h3>
   <%= form_tag(api_v1_ideas_path) do %>
-    <%= label_tag :idea_title %>
-    <%= text_field_tag :titleIdea %>
-    <%= label_tag :idea_description %>
+    <%= label_tag :title %>
+    <%= text_field_tag :titleIdea %><br>
+    <%= label_tag :description %><br>
     <%= text_field_tag :bodyIdea %>
     <button type="button" id="saveIdeaButton">Save</button>
   <% end %>
