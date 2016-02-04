@@ -17,4 +17,6 @@
 $(document).ready(function(){
   createIdea();
   deleteIdea();
+  editIdea();
+  ideasIndex();
 })
